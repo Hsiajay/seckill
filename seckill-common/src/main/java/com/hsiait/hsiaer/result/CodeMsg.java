@@ -9,13 +9,20 @@ import lombok.ToString;
  * @Author: xiajie
  * @Date: 2019/8/3 14:42
  **/
-@AllArgsConstructor
 @Data
 @ToString
 public class CodeMsg {
 
     private int code;
     private String msg;
+
+    private CodeMsg() {
+    }
+
+    private CodeMsg(int code,String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
 
     //通用的错误码
     public static CodeMsg SUCCESS = new CodeMsg(0, "success");
@@ -32,8 +39,12 @@ public class CodeMsg {
     //商品模块 5003XX
 
     //订单模块 5004XX
+    public static CodeMsg ORDER_NOT_EXIST = new CodeMsg(500400, "订单不存在");
 
     //秒杀模块 5005XX
+    public static CodeMsg MIAO_SHA_OVER = new CodeMsg(500500, "商品已经秒杀完毕");
+    public static CodeMsg REPEATE_MIAOSHA = new CodeMsg(500501, "不能重复秒杀");
+    public static CodeMsg MIAOSHA_FAIL = new CodeMsg(500502, "秒杀失败");
 
     /**
      * @Description //满足参数信息
