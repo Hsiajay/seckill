@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hsiait.hsiaer.usermanage.mapper.SeckillUserMapper">
+
+    <select id="getById" parameterType="long" resultType="com.hsiait.hsiaer.usermanage.domain.SeckillUser">
+        select * from seckill_user where id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.hsiait.hsiaer.usermanage.domain.SeckillUser">
+        update seckill_user set password = #{password} where id = #{id}
+    </update>
+</mapper>
