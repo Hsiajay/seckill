@@ -1,0 +1,65 @@
+# druid
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:8080/miaosha?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: xj123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat
+    maxActive: 1000
+    initialSize: 100
+    maxWait: 60000
+    minIdle: 500
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+
+  # redis
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 10
+    password: 123456
+    jedis:
+      pool:
+        max-idle: 500
+        max-wait: 500
+
+  # thymeleaf
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    servlet:
+      content-type: text/html
+    enabled: true
+    encoding: utf-8
+    mode: HTML5
+
+  #static
+  resources:
+    add-mappings: true
+    cache:
+      period: 3600
+    chain:
+      cache: true
+      enabled: true
+      #gzipped: true
+      html-application-cache: true
+    static-locations: classpath:/static/
+
+# mybatis
+mybatis:
+  type-aliases-package:
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 3000
+  mapper-locations:
+
