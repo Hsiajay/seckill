@@ -16,8 +16,8 @@ public class SeckillUser {
     private String password;
     private String salt;
     private String head;
-    private Date registerDate;
-    private Date lastLoginDate;
+    private Date registerTime;
+    private Date lastLoginTime;
     private Integer loginCount;
 
 }
