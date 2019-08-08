@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: 2019/8/4 12:13
  **/
 @SpringBootApplication
-@MapperScan("com.hsiait.hsiaer.usermanage.mapper")
+@MapperScan({"com.hsiait.hsiaer.usermanage.mapper","com.hsiait.hsiaer.goodsmanage.mapper"})
 public class MainApplication {
     public static void main(String[] args) {
         SpringApplication.run(MainApplication.class,args);

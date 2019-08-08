@@ -25,7 +25,7 @@ public class RabbitMQSender {
     public void sendMiaoshaMessage(SeckillMessage mm) {
         String msg = RedisService.beanToString(mm);
         log.info("send message:"+msg);
-        amqpTemplate.convertAndSend(RabbitMQConfig.MIAOSHA_QUEUE, msg);
+        amqpTemplate.convertAndSend(RabbitMQConfig.SECKILL_QUEUE, msg);
     }
 
     /*public void send(Object message) {

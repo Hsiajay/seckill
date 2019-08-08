@@ -14,7 +14,7 @@ import java.util.Map;
  **/
 @Configuration
 public class RabbitMQConfig {
-    public static final String MIAOSHA_QUEUE = "miaosha.queue";
+    public static final String SECKILL_QUEUE = "seckill.queue";
     public static final String QUEUE = "queue";
     public static final String TOPIC_QUEUE1 = "topic.queue1";
     public static final String TOPIC_QUEUE2 = "topic.queue2";

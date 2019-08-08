@@ -35,7 +35,7 @@ public class RabbitMQReceiver {
     @Autowired
     SeckillServiceImpl seckillService;
 
-    @RabbitListener(queues=RabbitMQConfig.MIAOSHA_QUEUE)
+    @RabbitListener(queues=RabbitMQConfig.SECKILL_QUEUE)
     public void receive(String message) {
         log.info("receive message:"+message);
         SeckillMessage skmsg  = RedisService.stringToBean(message, SeckillMessage.class);

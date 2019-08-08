@@ -49,7 +49,7 @@ public class GoodsController {
     @Autowired
     ApplicationContext applicationContext;
 
-    @RequestMapping(value = "/to_detail2/{goodsId}",produces = "text/html")
+    @RequestMapping(value = "/to_detail1/{goodsId}",produces = "text/html")
     public String list(HttpServletRequest request, HttpServletResponse response, Model model, SeckillUser skuser,
                           @PathVariable("goodsId") long goodsId){
 
