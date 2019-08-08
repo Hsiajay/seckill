@@ -4,17 +4,17 @@
 <mapper namespace="com.hsiait.hsiaer.goodsmanage.mapper.GoodsMapper">
     
     <resultMap id="listGoodsVoMap" type="com.hsiait.hsiaer.goodsmanage.vo.GoodsVo">
-        <result column="id" property="id"></result>
-        <result column="goods_name" property="goodsName"></result>
-        <result column="goods_title" property="goodsTitle"></result>
-        <result column="goods_img" property="goodsImg"></result>
-        <result column="goods_detail" property="goodsDetail"></result>
-        <result column="goods_price" property="goodsPrice"></result>
-        <result column="goods_stock" property="goodsStock"></result>
-        <result column="seckill_price" property="seckillPrice"></result>
-        <result column="stock_count" property="stockCount"></result>
-        <result column="start_time" property="startDate"></result>
-        <result column="end_time" property="endDate"></result>
+        <result column="id" property="id"/>
+        <result column="goods_name" property="goodsName"/>
+        <result column="goods_title" property="goodsTitle"/>
+        <result column="goods_img" property="goodsImg"/>
+        <result column="goods_detail" property="goodsDetail"/>
+        <result column="goods_price" property="goodsPrice"/>
+        <result column="goods_stock" property="goodsStock"/>
+        <result column="seckill_price" property="seckillPrice"/>
+        <result column="stock_count" property="stockCount"/>
+        <result column="start_time" property="startDate"/>
+        <result column="end_time" property="endDate"/>
 
     </resultMap>
 
