@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="881645ad-b8ab-4267-89a2-b29af8072593" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/resources/mappers/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/resources/mappers/SeckillUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seckill-main/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-main/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/seckill-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -58,8 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/impl/SeckillUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="-1087">
+              <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/redis/SeckillUserKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -67,8 +72,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1055">
-              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            <state relative-caret-position="127">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+              <folding>
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +85,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-891">
-              <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            <state relative-caret-position="115">
+              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/redis/RedisService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#5727#5757#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/SeckillMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -107,13 +128,80 @@
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/SeckillUserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.java">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/SeckillUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/static/bootstrap/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="4" column="26170" lean-forward="true" selection-start-line="4" selection-start-column="26170" selection-end-line="4" selection-end-column="26170" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
               <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
@@ -122,85 +210,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/GoodsMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/SeckillUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
-              <folding>
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/SeckillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/GoodsMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/OrderMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="71">
               <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
             </state>
           </provider>
@@ -218,8 +230,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="81">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -228,21 +240,9 @@
         <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/vo/LoginVo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/service/impl/GoodsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#693#694#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,13 +256,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/SeckillController.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/OrderMapper.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/GoodsMapper.java" />
@@ -270,11 +267,19 @@
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/MainApplication.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQReceiver.java" />
         <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQSender.java" />
+        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/seckill-main/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/seckill-main/src/main/resources/static/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.java" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -597,6 +602,24 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -613,7 +636,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565250361537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565256677120" />
     <property name="last_opened_file_path" value="H:/IntelliJ IDEA/IDEA checks/idea_checks.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -669,7 +692,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565235744933</updated>
-      <workItem from="1565235747300" duration="11739000" />
+      <workItem from="1565235747300" duration="18138000" />
     </task>
     <task id="LOCAL-00001" summary="lenovo commit1">
       <created>1565238960684</created>
@@ -692,11 +715,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565247369171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lenovo commit4">
+      <created>1565250879937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565250879937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11739000" />
+    <option name="totallyTimeSpent" value="18138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -712,12 +742,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20956874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Spring" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" show_stripe_button="false" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -725,8 +756,8 @@
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3196347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -749,7 +780,8 @@
     <MESSAGE value="lenovo commit1" />
     <MESSAGE value="lenovo commit2" />
     <MESSAGE value="lenovo commit3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lenovo commit3" />
+    <MESSAGE value="lenovo commit4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lenovo commit4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/service/OrderService.java">
@@ -770,20 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="28" selection-start-line="28" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -856,24 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/mapper/OrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -885,20 +889,6 @@
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/SeckillUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -933,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/goodsmanage/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -950,7 +933,7 @@
     <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/vo/LoginVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/SeckillUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -968,34 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/impl/SeckillUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1011,8 +966,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/SeckillMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/redis/SeckillUserKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/redis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#5727#5757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/SeckillUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-common/src/main/java/com/hsiait/hsiaer/result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/rabbitmq/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/service/impl/SeckillUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1087">
+          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/static/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="4" column="26170" lean-forward="true" selection-start-line="4" selection-start-column="26170" selection-end-line="4" selection-end-column="26170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckill-main/src/main/java/com/hsiait/hsiaer/usermanage/mapper/SeckillUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -27,6 +27,10 @@ public class RabbitMQConfig {
      * Direct模式 交换机Exchange
      * */
     @Bean
+    public Queue seckillQueue(){
+        return new Queue(SECKILL_QUEUE,true);
+    }
+    @Bean
     public Queue queue() {
         return new Queue(QUEUE, true);
     }
