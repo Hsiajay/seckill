@@ -2,6 +2,7 @@ package com.hsiait.hsiaer.usermanage.controller;
 
 import com.hsiait.hsiaer.redis.RedisService;
 import com.hsiait.hsiaer.result.Result;
+import com.hsiait.hsiaer.usermanage.service.SeckillUserService;
 import com.hsiait.hsiaer.usermanage.service.impl.SeckillUserServiceImpl;
 import com.hsiait.hsiaer.usermanage.vo.LoginVo;
 import org.slf4j.Logger;
@@ -25,7 +26,8 @@ public class LoginController {
     private static Logger log = LoggerFactory.getLogger(LoginController.class);
 
     @Autowired
-    SeckillUserServiceImpl seckillUserService;
+    SeckillUserService seckillUserService;
+
 
     @Autowired
     RedisService redisService;

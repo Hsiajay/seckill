@@ -1,5 +1,6 @@
 package com.hsiait.hsiaer.goodsmanage.controller;
 
+import com.hsiait.hsiaer.goodsmanage.service.GoodsService;
 import com.hsiait.hsiaer.goodsmanage.service.impl.GoodsServiceImpl;
 import com.hsiait.hsiaer.goodsmanage.vo.GoodsDetailVo;
 import com.hsiait.hsiaer.goodsmanage.vo.GoodsVo;
@@ -7,6 +8,7 @@ import com.hsiait.hsiaer.redis.GoodsKey;
 import com.hsiait.hsiaer.redis.RedisService;
 import com.hsiait.hsiaer.result.Result;
 import com.hsiait.hsiaer.usermanage.domain.SeckillUser;
+import com.hsiait.hsiaer.usermanage.service.SeckillUserService;
 import com.hsiait.hsiaer.usermanage.service.impl.SeckillUserServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,13 +35,13 @@ import java.util.List;
 public class GoodsController {
 
     @Autowired
-    SeckillUserServiceImpl seckillUserService;
+    SeckillUserService seckillUserService;
 
     @Autowired
     RedisService redisService;
 
     @Autowired
-    GoodsServiceImpl goodsService;
+    GoodsService goodsService;
 
     @Autowired
     ThymeleafViewResolver thymeleafViewResolver;

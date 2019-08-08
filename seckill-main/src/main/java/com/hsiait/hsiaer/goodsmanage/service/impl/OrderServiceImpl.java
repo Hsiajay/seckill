@@ -9,6 +9,7 @@ import com.hsiait.hsiaer.redis.OrderKey;
 import com.hsiait.hsiaer.redis.RedisService;
 import com.hsiait.hsiaer.usermanage.domain.SeckillUser;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
@@ -18,6 +19,7 @@ import java.util.Date;
  * @Author: xiajie
  * @Date: 2019/8/4 18:00
  **/
+@Service
 public class OrderServiceImpl implements OrderService {
 
     @Autowired

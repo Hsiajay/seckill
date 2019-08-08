@@ -4,12 +4,14 @@ import com.hsiait.hsiaer.goodsmanage.domain.OrderInfo;
 import com.hsiait.hsiaer.goodsmanage.domain.SeckillGoods;
 import com.hsiait.hsiaer.goodsmanage.domain.SeckillOrder;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 /**
  * @Description:
  * @Author: xiajie
  * @Date: 2019/8/4 17:04
  **/
+@Repository
 public interface OrderMapper {
 
     public SeckillOrder getSeckillOrderByUserIdGoodsId(@Param("userId")long userId, @Param("goodsId")long goodsId);

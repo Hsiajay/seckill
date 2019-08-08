@@ -2,6 +2,7 @@ package com.hsiait.hsiaer.usermanage.mapper;
 
 import com.hsiait.hsiaer.usermanage.domain.User;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -9,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @Author: xiajie
  * @Date: 2019/8/4 14:34
  **/
+@Repository
 public interface UserMapper {
 
     public User getById(@Param("id")int id);

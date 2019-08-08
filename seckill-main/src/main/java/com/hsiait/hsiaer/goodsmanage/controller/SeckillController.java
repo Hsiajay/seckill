@@ -2,6 +2,8 @@ package com.hsiait.hsiaer.goodsmanage.controller;
 
 import com.hsiait.hsiaer.access.AccessLimit;
 import com.hsiait.hsiaer.goodsmanage.domain.SeckillOrder;
+import com.hsiait.hsiaer.goodsmanage.service.GoodsService;
+import com.hsiait.hsiaer.goodsmanage.service.OrderService;
 import com.hsiait.hsiaer.goodsmanage.service.SeckillService;
 import com.hsiait.hsiaer.goodsmanage.service.impl.GoodsServiceImpl;
 import com.hsiait.hsiaer.goodsmanage.service.impl.OrderServiceImpl;
@@ -39,7 +41,7 @@ import java.util.List;
 public class SeckillController implements InitializingBean {
 
     @Autowired
-    SeckillServiceImpl seckillService;
+    SeckillService seckillService;
 
     @Autowired
     SeckillUserService seckillUserService;
@@ -48,10 +50,10 @@ public class SeckillController implements InitializingBean {
     RedisService redisService;
 
     @Autowired
-    GoodsServiceImpl goodsService;
+    GoodsService goodsService;
 
     @Autowired
-    OrderServiceImpl orderService;
+    OrderService orderService;
 
     /*@Autowired
     MQSender sender;*/

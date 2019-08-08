@@ -3,6 +3,7 @@ package com.hsiait.hsiaer.usermanage.controller;
 import com.hsiait.hsiaer.redis.RedisService;
 import com.hsiait.hsiaer.result.Result;
 import com.hsiait.hsiaer.usermanage.domain.SeckillUser;
+import com.hsiait.hsiaer.usermanage.service.SeckillUserService;
 import com.hsiait.hsiaer.usermanage.service.impl.SeckillUserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,7 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class UserController {
 
     @Autowired
-    SeckillUserServiceImpl seckillUserService;
+    SeckillUserService seckillUserService;
 
     @Autowired
     RedisService redisService;

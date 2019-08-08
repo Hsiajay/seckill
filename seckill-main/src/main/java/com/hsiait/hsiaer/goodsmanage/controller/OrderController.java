@@ -1,6 +1,8 @@
 package com.hsiait.hsiaer.goodsmanage.controller;
 
 import com.hsiait.hsiaer.goodsmanage.domain.OrderInfo;
+import com.hsiait.hsiaer.goodsmanage.service.GoodsService;
+import com.hsiait.hsiaer.goodsmanage.service.OrderService;
 import com.hsiait.hsiaer.goodsmanage.service.impl.GoodsServiceImpl;
 import com.hsiait.hsiaer.goodsmanage.service.impl.OrderServiceImpl;
 import com.hsiait.hsiaer.goodsmanage.vo.GoodsVo;
@@ -9,6 +11,7 @@ import com.hsiait.hsiaer.redis.RedisService;
 import com.hsiait.hsiaer.result.CodeMsg;
 import com.hsiait.hsiaer.result.Result;
 import com.hsiait.hsiaer.usermanage.domain.SeckillUser;
+import com.hsiait.hsiaer.usermanage.service.SeckillUserService;
 import com.hsiait.hsiaer.usermanage.service.impl.SeckillUserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,16 +30,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class OrderController {
 
     @Autowired
-    SeckillUserServiceImpl seckillUserService;
+    SeckillUserService seckillUserService;
 
     @Autowired
     RedisService redisService;
 
     @Autowired
-    OrderServiceImpl orderService;
+    OrderService orderService;
 
     @Autowired
-    GoodsServiceImpl goodsService;
+    GoodsService goodsService;
 
     @RequestMapping("/detail")
     @ResponseBody

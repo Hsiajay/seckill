@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  * @Author: xiajie
  * @Date: 2019/8/4 16:57
  **/
-@Mapper
+@Repository
 public interface GoodsMapper {
 
     @Select("select g.*,sk.stock_count, sk.start_time, sk.end_time,sk.seckill_price from seckill_goods sk left join goods g on sk.goods_id = g.id")
