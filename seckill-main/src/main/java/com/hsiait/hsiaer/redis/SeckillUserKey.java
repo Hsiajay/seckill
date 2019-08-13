@@ -6,7 +6,7 @@ package com.hsiait.hsiaer.redis;
  * @Date: 2019/8/4 12:55
  **/
 public class SeckillUserKey extends BasePrefix {
-    public static final int TOKEN_EXPIRE = 3600*24 * 2;
+    public static final int TOKEN_EXPIRE = 3600*24*2;
 
     public SeckillUserKey(int expireSeconds, String prefix) {
         super(expireSeconds, prefix);
