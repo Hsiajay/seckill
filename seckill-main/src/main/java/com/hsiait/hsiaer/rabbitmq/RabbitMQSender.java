@@ -22,7 +22,7 @@ public class RabbitMQSender {
     @Autowired
     AmqpTemplate amqpTemplate ;
 
-    public void sendMiaoshaMessage(SeckillMessage mm) {
+    public void sendSeckillMessage(SeckillMessage mm) {
         String msg = RedisService.beanToString(mm);
         log.info("send message:"+msg);
         amqpTemplate.convertAndSend(RabbitMQConfig.SECKILL_QUEUE, msg);
