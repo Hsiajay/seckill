@@ -100,7 +100,7 @@ public class SeckillController implements InitializingBean {
      * */
     @RequestMapping(value="/{path}/do_miaosha", method=RequestMethod.POST)
     @ResponseBody
-    public Result<Integer> miaosha(Model model, SeckillUser skuser,
+    public Result<Integer> seckill(Model model, SeckillUser skuser,
                                    @RequestParam("goodsId")long goodsId,
                                    @PathVariable("path") String path) {
         model.addAttribute("user", skuser);
@@ -159,7 +159,7 @@ public class SeckillController implements InitializingBean {
      * */
     @RequestMapping(value="/result", method=RequestMethod.GET)
     @ResponseBody
-    public Result<Long> miaoshaResult(Model model,SeckillUser skuser,
+    public Result<Long> seckillResult(Model model,SeckillUser skuser,
                                       @RequestParam("goodsId")long goodsId) {
         model.addAttribute("user", skuser);
         if(skuser == null) {
@@ -172,7 +172,7 @@ public class SeckillController implements InitializingBean {
     @AccessLimit(seconds=5, maxCount=5, needLogin=true)
     @RequestMapping(value="/path", method=RequestMethod.GET)
     @ResponseBody
-    public Result<String> getMiaoshaPath(HttpServletRequest request, SeckillUser user,
+    public Result<String> getSeckillPath(HttpServletRequest request, SeckillUser user,
                                          @RequestParam("goodsId")long goodsId,
                                          @RequestParam(value="verifyCode", defaultValue="0")int verifyCode
     ) {
@@ -190,7 +190,7 @@ public class SeckillController implements InitializingBean {
 
     @RequestMapping(value="/verifyCode", method=RequestMethod.GET)
     @ResponseBody
-    public Result<String> getMiaoshaVerifyCod(HttpServletResponse response, SeckillUser skuser,
+    public Result<String> getSeckillVerifyCod(HttpServletResponse response, SeckillUser skuser,
                                               @RequestParam("goodsId")long goodsId) {
         if(skuser == null) {
             return Result.error(CodeMsg.SESSION_ERROR);
